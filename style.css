@@ -1,19 +1,20 @@
-*{ 
-  color: black;
-  text-align: center;
+*{
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
   background-image: url(./image.png);
   background-repeat: no-repeat;
-  background-position: left top;
-  
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 300px;
+  text-align: center;
 }
 
 h1 {
   font-family: 'Cinzel';
-  margin-bottom: 0;
-  margin-top: 250px;
   font-size: 64px;
 }
 
@@ -30,6 +31,7 @@ p {
 a {
   text-decoration: none;
   margin: 10px;
+  color: black;
 }
 
 button {
